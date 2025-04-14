@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13FBA8622DAD037000BB42A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FBA8612DAD037000BB42A8 /* AppDelegate.m */; };
+		13FBA8652DAD037000BB42A8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FBA8642DAD037000BB42A8 /* SceneDelegate.m */; };
+		13FBA8682DAD037000BB42A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FBA8672DAD037000BB42A8 /* ViewController.m */; };
+		13FBA86B2DAD037000BB42A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13FBA8692DAD037000BB42A8 /* Main.storyboard */; };
+		13FBA86D2DAD037500BB42A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13FBA86C2DAD037500BB42A8 /* Assets.xcassets */; };
+		13FBA8702DAD037500BB42A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13FBA86E2DAD037500BB42A8 /* LaunchScreen.storyboard */; };
+		13FBA8732DAD037500BB42A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FBA8722DAD037500BB42A8 /* main.m */; };
+		13FBA87D2DAD037600BB42A8 /* SmartViewerProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FBA87C2DAD037600BB42A8 /* SmartViewerProTests.m */; };
+		13FBA8872DAD037600BB42A8 /* SmartViewerProUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FBA8862DAD037600BB42A8 /* SmartViewerProUITests.m */; };
+		13FBA8892DAD037600BB42A8 /* SmartViewerProUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FBA8882DAD037600BB42A8 /* SmartViewerProUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13FBA8792DAD037600BB42A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13FBA8552DAD037000BB42A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13FBA85C2DAD037000BB42A8;
+			remoteInfo = SmartViewerPro;
+		};
+		13FBA8832DAD037600BB42A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13FBA8552DAD037000BB42A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13FBA85C2DAD037000BB42A8;
+			remoteInfo = SmartViewerPro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13FBA85D2DAD037000BB42A8 /* SmartViewerPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartViewerPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13FBA8602DAD037000BB42A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		13FBA8612DAD037000BB42A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		13FBA8632DAD037000BB42A8 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		13FBA8642DAD037000BB42A8 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		13FBA8662DAD037000BB42A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		13FBA8672DAD037000BB42A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		13FBA86A2DAD037000BB42A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13FBA86C2DAD037500BB42A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13FBA86F2DAD037500BB42A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13FBA8712DAD037500BB42A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13FBA8722DAD037500BB42A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13FBA8782DAD037600BB42A8 /* SmartViewerProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartViewerProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13FBA87C2DAD037600BB42A8 /* SmartViewerProTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartViewerProTests.m; sourceTree = "<group>"; };
+		13FBA8822DAD037600BB42A8 /* SmartViewerProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartViewerProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13FBA8862DAD037600BB42A8 /* SmartViewerProUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartViewerProUITests.m; sourceTree = "<group>"; };
+		13FBA8882DAD037600BB42A8 /* SmartViewerProUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartViewerProUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13FBA85A2DAD037000BB42A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13FBA8752DAD037600BB42A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13FBA87F2DAD037600BB42A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13FBA8542DAD037000BB42A8 = {
+			isa = PBXGroup;
+			children = (
+				13FBA85F2DAD037000BB42A8 /* SmartViewerPro */,
+				13FBA87B2DAD037600BB42A8 /* SmartViewerProTests */,
+				13FBA8852DAD037600BB42A8 /* SmartViewerProUITests */,
+				13FBA85E2DAD037000BB42A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13FBA85E2DAD037000BB42A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13FBA85D2DAD037000BB42A8 /* SmartViewerPro.app */,
+				13FBA8782DAD037600BB42A8 /* SmartViewerProTests.xctest */,
+				13FBA8822DAD037600BB42A8 /* SmartViewerProUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13FBA85F2DAD037000BB42A8 /* SmartViewerPro */ = {
+			isa = PBXGroup;
+			children = (
+				13FBA8602DAD037000BB42A8 /* AppDelegate.h */,
+				13FBA8612DAD037000BB42A8 /* AppDelegate.m */,
+				13FBA8632DAD037000BB42A8 /* SceneDelegate.h */,
+				13FBA8642DAD037000BB42A8 /* SceneDelegate.m */,
+				13FBA8662DAD037000BB42A8 /* ViewController.h */,
+				13FBA8672DAD037000BB42A8 /* ViewController.m */,
+				13FBA8692DAD037000BB42A8 /* Main.storyboard */,
+				13FBA86C2DAD037500BB42A8 /* Assets.xcassets */,
+				13FBA86E2DAD037500BB42A8 /* LaunchScreen.storyboard */,
+				13FBA8712DAD037500BB42A8 /* Info.plist */,
+				13FBA8722DAD037500BB42A8 /* main.m */,
+			);
+			path = SmartViewerPro;
+			sourceTree = "<group>";
+		};
+		13FBA87B2DAD037600BB42A8 /* SmartViewerProTests */ = {
+			isa = PBXGroup;
+			children = (
+				13FBA87C2DAD037600BB42A8 /* SmartViewerProTests.m */,
+			);
+			path = SmartViewerProTests;
+			sourceTree = "<group>";
+		};
+		13FBA8852DAD037600BB42A8 /* SmartViewerProUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13FBA8862DAD037600BB42A8 /* SmartViewerProUITests.m */,
+				13FBA8882DAD037600BB42A8 /* SmartViewerProUITestsLaunchTests.m */,
+			);
+			path = SmartViewerProUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13FBA85C2DAD037000BB42A8 /* SmartViewerPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13FBA88C2DAD037600BB42A8 /* Build configuration list for PBXNativeTarget "SmartViewerPro" */;
+			buildPhases = (
+				13FBA8592DAD037000BB42A8 /* Sources */,
+				13FBA85A2DAD037000BB42A8 /* Frameworks */,
+				13FBA85B2DAD037000BB42A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartViewerPro;
+			productName = SmartViewerPro;
+			productReference = 13FBA85D2DAD037000BB42A8 /* SmartViewerPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13FBA8772DAD037600BB42A8 /* SmartViewerProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13FBA88F2DAD037600BB42A8 /* Build configuration list for PBXNativeTarget "SmartViewerProTests" */;
+			buildPhases = (
+				13FBA8742DAD037600BB42A8 /* Sources */,
+				13FBA8752DAD037600BB42A8 /* Frameworks */,
+				13FBA8762DAD037600BB42A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13FBA87A2DAD037600BB42A8 /* PBXTargetDependency */,
+			);
+			name = SmartViewerProTests;
+			productName = SmartViewerProTests;
+			productReference = 13FBA8782DAD037600BB42A8 /* SmartViewerProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13FBA8812DAD037600BB42A8 /* SmartViewerProUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13FBA8922DAD037600BB42A8 /* Build configuration list for PBXNativeTarget "SmartViewerProUITests" */;
+			buildPhases = (
+				13FBA87E2DAD037600BB42A8 /* Sources */,
+				13FBA87F2DAD037600BB42A8 /* Frameworks */,
+				13FBA8802DAD037600BB42A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13FBA8842DAD037600BB42A8 /* PBXTargetDependency */,
+			);
+			name = SmartViewerProUITests;
+			productName = SmartViewerProUITests;
+			productReference = 13FBA8822DAD037600BB42A8 /* SmartViewerProUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13FBA8552DAD037000BB42A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					13FBA85C2DAD037000BB42A8 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					13FBA8772DAD037600BB42A8 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 13FBA85C2DAD037000BB42A8;
+					};
+					13FBA8812DAD037600BB42A8 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 13FBA85C2DAD037000BB42A8;
+					};
+				};
+			};
+			buildConfigurationList = 13FBA8582DAD037000BB42A8 /* Build configuration list for PBXProject "SmartViewerPro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13FBA8542DAD037000BB42A8;
+			productRefGroup = 13FBA85E2DAD037000BB42A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13FBA85C2DAD037000BB42A8 /* SmartViewerPro */,
+				13FBA8772DAD037600BB42A8 /* SmartViewerProTests */,
+				13FBA8812DAD037600BB42A8 /* SmartViewerProUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13FBA85B2DAD037000BB42A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13FBA8702DAD037500BB42A8 /* LaunchScreen.storyboard in Resources */,
+				13FBA86D2DAD037500BB42A8 /* Assets.xcassets in Resources */,
+				13FBA86B2DAD037000BB42A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13FBA8762DAD037600BB42A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13FBA8802DAD037600BB42A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13FBA8592DAD037000BB42A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13FBA8682DAD037000BB42A8 /* ViewController.m in Sources */,
+				13FBA8622DAD037000BB42A8 /* AppDelegate.m in Sources */,
+				13FBA8732DAD037500BB42A8 /* main.m in Sources */,
+				13FBA8652DAD037000BB42A8 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13FBA8742DAD037600BB42A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13FBA87D2DAD037600BB42A8 /* SmartViewerProTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13FBA87E2DAD037600BB42A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13FBA8892DAD037600BB42A8 /* SmartViewerProUITestsLaunchTests.m in Sources */,
+				13FBA8872DAD037600BB42A8 /* SmartViewerProUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13FBA87A2DAD037600BB42A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13FBA85C2DAD037000BB42A8 /* SmartViewerPro */;
+			targetProxy = 13FBA8792DAD037600BB42A8 /* PBXContainerItemProxy */;
+		};
+		13FBA8842DAD037600BB42A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13FBA85C2DAD037000BB42A8 /* SmartViewerPro */;
+			targetProxy = 13FBA8832DAD037600BB42A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13FBA8692DAD037000BB42A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13FBA86A2DAD037000BB42A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13FBA86E2DAD037500BB42A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13FBA86F2DAD037500BB42A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13FBA88A2DAD037600BB42A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		13FBA88B2DAD037600BB42A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13FBA88D2DAD037600BB42A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9T5TU9B39Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartViewerPro/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.handhitech.SmartViewerPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13FBA88E2DAD037600BB42A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9T5TU9B39Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartViewerPro/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.handhitech.SmartViewerPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		13FBA8902DAD037600BB42A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9T5TU9B39Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.handhitech.SmartViewerProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartViewerPro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmartViewerPro";
+			};
+			name = Debug;
+		};
+		13FBA8912DAD037600BB42A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9T5TU9B39Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.handhitech.SmartViewerProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartViewerPro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmartViewerPro";
+			};
+			name = Release;
+		};
+		13FBA8932DAD037600BB42A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9T5TU9B39Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.handhitech.SmartViewerProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartViewerPro;
+			};
+			name = Debug;
+		};
+		13FBA8942DAD037600BB42A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9T5TU9B39Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.handhitech.SmartViewerProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartViewerPro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13FBA8582DAD037000BB42A8 /* Build configuration list for PBXProject "SmartViewerPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13FBA88A2DAD037600BB42A8 /* Debug */,
+				13FBA88B2DAD037600BB42A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13FBA88C2DAD037600BB42A8 /* Build configuration list for PBXNativeTarget "SmartViewerPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13FBA88D2DAD037600BB42A8 /* Debug */,
+				13FBA88E2DAD037600BB42A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13FBA88F2DAD037600BB42A8 /* Build configuration list for PBXNativeTarget "SmartViewerProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13FBA8902DAD037600BB42A8 /* Debug */,
+				13FBA8912DAD037600BB42A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13FBA8922DAD037600BB42A8 /* Build configuration list for PBXNativeTarget "SmartViewerProUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13FBA8932DAD037600BB42A8 /* Debug */,
+				13FBA8942DAD037600BB42A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13FBA8552DAD037000BB42A8 /* Project object */;
+}
