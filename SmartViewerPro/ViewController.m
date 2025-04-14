@@ -22,5 +22,9 @@
     
 }
 
+- (void)deletFunc{
+    
+}
+
 
 @end
