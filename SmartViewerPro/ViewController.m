@@ -26,5 +26,9 @@
     
 }
 
+- (void)mutiplFunc{
+    
+}
+
 
 @end
