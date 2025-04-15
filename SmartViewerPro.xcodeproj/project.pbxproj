@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,7 @@
 		13FBA87D2DAD037600BB42A8 /* SmartViewerProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FBA87C2DAD037600BB42A8 /* SmartViewerProTests.m */; };
 		13FBA8872DAD037600BB42A8 /* SmartViewerProUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FBA8862DAD037600BB42A8 /* SmartViewerProUITests.m */; };
 		13FBA8892DAD037600BB42A8 /* SmartViewerProUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FBA8882DAD037600BB42A8 /* SmartViewerProUITestsLaunchTests.m */; };
+		E1DE762A76498EC0DA658D95 /* libPods-SmartViewerPro.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D34B5A8265D78C3CE20EBD6 /* libPods-SmartViewerPro.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,9 @@
 		13FBA8822DAD037600BB42A8 /* SmartViewerProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartViewerProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13FBA8862DAD037600BB42A8 /* SmartViewerProUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartViewerProUITests.m; sourceTree = "<group>"; };
 		13FBA8882DAD037600BB42A8 /* SmartViewerProUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartViewerProUITestsLaunchTests.m; sourceTree = "<group>"; };
+		2B2CDC4CC0490DE8DFC91046 /* Pods-SmartViewerPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartViewerPro.release.xcconfig"; path = "Target Support Files/Pods-SmartViewerPro/Pods-SmartViewerPro.release.xcconfig"; sourceTree = "<group>"; };
+		5D34B5A8265D78C3CE20EBD6 /* libPods-SmartViewerPro.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartViewerPro.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A57BD26383572BD4E3327CF /* Pods-SmartViewerPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartViewerPro.debug.xcconfig"; path = "Target Support Files/Pods-SmartViewerPro/Pods-SmartViewerPro.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1DE762A76498EC0DA658D95 /* libPods-SmartViewerPro.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +93,8 @@
 				13FBA87B2DAD037600BB42A8 /* SmartViewerProTests */,
 				13FBA8852DAD037600BB42A8 /* SmartViewerProUITests */,
 				13FBA85E2DAD037000BB42A8 /* Products */,
+				DEBF51206D9F721983088778 /* Pods */,
+				39D176A879C5DFD88D95ED0D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,6 +143,24 @@
 			path = SmartViewerProUITests;
 			sourceTree = "<group>";
 		};
+		39D176A879C5DFD88D95ED0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D34B5A8265D78C3CE20EBD6 /* libPods-SmartViewerPro.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEBF51206D9F721983088778 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A57BD26383572BD4E3327CF /* Pods-SmartViewerPro.debug.xcconfig */,
+				2B2CDC4CC0490DE8DFC91046 /* Pods-SmartViewerPro.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +168,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13FBA88C2DAD037600BB42A8 /* Build configuration list for PBXNativeTarget "SmartViewerPro" */;
 			buildPhases = (
+				F4348527E4BB361FCF9723CE /* [CP] Check Pods Manifest.lock */,
 				13FBA8592DAD037000BB42A8 /* Sources */,
 				13FBA85A2DAD037000BB42A8 /* Frameworks */,
 				13FBA85B2DAD037000BB42A8 /* Resources */,
@@ -215,7 +241,7 @@
 				};
 			};
 			buildConfigurationList = 13FBA8582DAD037000BB42A8 /* Build configuration list for PBXProject "SmartViewerPro" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -260,6 +286,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F4348527E4BB361FCF9723CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartViewerPro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		13FBA8592DAD037000BB42A8 /* Sources */ = {
@@ -443,6 +494,7 @@
 		};
 		13FBA88D2DAD037600BB42A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A57BD26383572BD4E3327CF /* Pods-SmartViewerPro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -470,6 +522,7 @@
 		};
 		13FBA88E2DAD037600BB42A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B2CDC4CC0490DE8DFC91046 /* Pods-SmartViewerPro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

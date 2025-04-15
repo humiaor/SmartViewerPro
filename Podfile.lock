@@ -1,0 +1,22 @@
+PODS:
+  - FFmpeg (2.8.3):
+    - FFmpeg/precompiled (= 2.8.3)
+  - FFmpeg/precompiled (2.8.3)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - FFmpeg
+  - Masonry
+
+SPEC REPOS:
+  trunk:
+    - FFmpeg
+    - Masonry
+
+SPEC CHECKSUMS:
+  FFmpeg: f1428c3b60b5f9e349fcd5d7878705cd7f9a26f6
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: beb3877e30513d7617e6c9226e6f770c507597bc
+
+COCOAPODS: 1.12.0
