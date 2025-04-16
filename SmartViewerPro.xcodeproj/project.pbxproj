@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		132A9C2E2DAFBB0600EFB2D5 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 132A9C2D2DAFBB0600EFB2D5 /* libz.tbd */; };
+		132A9C302DAFBB1100EFB2D5 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 132A9C2F2DAFBB1100EFB2D5 /* libbz2.tbd */; };
+		132A9C322DAFBB1E00EFB2D5 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 132A9C312DAFBB1E00EFB2D5 /* libiconv.tbd */; };
+		132A9C342DAFBB3000EFB2D5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 132A9C332DAFBB3000EFB2D5 /* CoreMedia.framework */; };
+		132A9C362DAFBB3800EFB2D5 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 132A9C352DAFBB3800EFB2D5 /* VideoToolbox.framework */; };
+		132A9C382DAFBB3E00EFB2D5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 132A9C372DAFBB3E00EFB2D5 /* AVFoundation.framework */; };
 		13FBA8622DAD037000BB42A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FBA8612DAD037000BB42A8 /* AppDelegate.m */; };
 		13FBA8652DAD037000BB42A8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FBA8642DAD037000BB42A8 /* SceneDelegate.m */; };
 		13FBA8682DAD037000BB42A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FBA8672DAD037000BB42A8 /* ViewController.m */; };
@@ -38,6 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		132A9C2D2DAFBB0600EFB2D5 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		132A9C2F2DAFBB1100EFB2D5 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		132A9C312DAFBB1E00EFB2D5 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		132A9C332DAFBB3000EFB2D5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		132A9C352DAFBB3800EFB2D5 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		132A9C372DAFBB3E00EFB2D5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		13FBA85D2DAD037000BB42A8 /* SmartViewerPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartViewerPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13FBA8602DAD037000BB42A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		13FBA8612DAD037000BB42A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -65,6 +77,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				132A9C382DAFBB3E00EFB2D5 /* AVFoundation.framework in Frameworks */,
+				132A9C362DAFBB3800EFB2D5 /* VideoToolbox.framework in Frameworks */,
+				132A9C342DAFBB3000EFB2D5 /* CoreMedia.framework in Frameworks */,
+				132A9C322DAFBB1E00EFB2D5 /* libiconv.tbd in Frameworks */,
+				132A9C302DAFBB1100EFB2D5 /* libbz2.tbd in Frameworks */,
+				132A9C2E2DAFBB0600EFB2D5 /* libz.tbd in Frameworks */,
 				E1DE762A76498EC0DA658D95 /* libPods-SmartViewerPro.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,6 +164,12 @@
 		39D176A879C5DFD88D95ED0D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				132A9C372DAFBB3E00EFB2D5 /* AVFoundation.framework */,
+				132A9C352DAFBB3800EFB2D5 /* VideoToolbox.framework */,
+				132A9C332DAFBB3000EFB2D5 /* CoreMedia.framework */,
+				132A9C312DAFBB1E00EFB2D5 /* libiconv.tbd */,
+				132A9C2F2DAFBB1100EFB2D5 /* libbz2.tbd */,
+				132A9C2D2DAFBB0600EFB2D5 /* libz.tbd */,
 				5D34B5A8265D78C3CE20EBD6 /* libPods-SmartViewerPro.a */,
 			);
 			name = Frameworks;
@@ -157,7 +181,6 @@
 				8A57BD26383572BD4E3327CF /* Pods-SmartViewerPro.debug.xcconfig */,
 				2B2CDC4CC0490DE8DFC91046 /* Pods-SmartViewerPro.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -508,6 +531,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -536,6 +560,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

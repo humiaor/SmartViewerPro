@@ -6,6 +6,10 @@
 //
 
 #import "ViewController.h"
+#include <libavformat/avformat.h>
+#include <libavcodec/avcodec.h>
+#include <libswscale/swscale.h>
+
 
 @interface ViewController ()
 
@@ -15,7 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
 }
 
 @end
