@@ -18,17 +18,5 @@
     // Do any additional setup after loading the view.
 }
 
-- (void)addFunc{
-    
-}
-
-- (void)deletFunc{
-    
-}
-
-- (void)mutiplFunc{
-    
-}
-
 
 @end
